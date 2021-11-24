@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* menu */
+.menu{
+	height:70px;
+	background-color:rgb(163, 4, 4);
+	border:0;
+	border-radius:12px;
+}
+.menu>a>img{
+	width:70px;
+}
+.menu>a{
+	float:left;
+	display:block;
+}
+.menu ul li{
+	float:left;
+	list-style-type:none;
+}
+.menu ul li:last-child{
+	margin-left:0;
+}
+.menu ul li a{
+	text-decoration:none;
+	display:block;
+	color:white;
+	text-transform:uppercase;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	padding:10px 15px;
+	margin-left: 100px;
+	margin-top:10px;
+}
+.menu ul li a:hover{
+	background-color:white;
+	color:rgb(163, 4, 4);
+}
+/* Huong Vi */
+.menu1{
+	background-image:url(../Images/BG/925280388-1024x1024.jpg);
+}
+.menu1 div.kind div.name{
+	background-color:rgb(218,52,77);
+	text-align:center;
+	text-transform:uppercase;
+	padding:15px;
+	font-weight:600;
+	font-size:20px;
+	font-family:arial;
+	color:white;
+	text-shadow:-1px 1px 1px #828181;
+	border-radius:32px;
+}
+.menu1 div.kind {
+	overflow:auto;
+}
+.menu1 div.kind a{
+	float:left;
+	display:block;
+	width:33%;
+	text-align:center;
+	color:rgba(182,46,48,0.9);
+	text-transform:capitalize;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.menu1 div.kind div.item1 div img{
+	width:240px;
+	height:270px;
+	background: radial-gradient(to left,red,white);
+	border-radius:30px;
+}
+div.menu1 div.kind a:hover{
+	background-color:rgba(128,64,0,0.68);
+	color:#FFF;
+	border-radius:25px;
+}
+/* footer*/
+div.footer{
+	background-image:url(../Images/BG/800px_COLOURBOX10588904.jpg);
+	height:300px;
+	border-radius:15px
+}
+div.footer>div{
+	margin:30px 150px;
+	float:right;
+	width:600px;
+	height:230px;
+	background-color:rgba(45, 119, 32,0.87);
+	box-shadow:-5px -5px 5px #005E25;
+}
+.footer>div div.detail ul li{
+	list-style-type:none;
+}
+.footer>div div.detail ul li a{
+	padding:5px;
+	display:block;
+	text-decoration:none;
+	color:#F60;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	text-transform:uppercase;
+}
+.footer>div div.detail ul li a:hover{
+	color:#FFF;
+}
+.footer>div div.detail{
+	float:left;
+}
+.footer>div div.icon{
+	float:right;
+}
+.footer>div div.icon a{
+	display:inline-block;
+	padding:10px 20px;
+}
+.footer>div div.icon a img{
+	width:50px;
+}
+.footer>img{
+	width:300px;
+	float:left;
+	background-color:rgba(50,154,55,0.8);
+	margin:10px;
+	box-shadow:-5px -5px 5px #005E25;
+}
+
